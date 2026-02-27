@@ -109,10 +109,15 @@ def apply_custom_theme():
             padding: 2rem 1.5rem;
             border-radius: 15px;
             text-align: center;
-            margin: 1rem 0;
+            margin: 0.75rem 0;
             border: 3px solid #E8DCFF;
             transition: all 0.3s ease;
             box-shadow: 0 2px 8px rgba(155, 111, 216, 0.1);
+            height: 240px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         
         .feature-card:hover {
@@ -124,6 +129,7 @@ def apply_custom_theme():
         .feature-icon {
             font-size: 3.5rem;
             margin-bottom: 1rem;
+            line-height: 1;
         }
         
         .feature-card h4 {
@@ -138,6 +144,11 @@ def apply_custom_theme():
             font-size: 1rem;
             line-height: 1.5;
             margin: 0;
+        }
+        
+        /* Column spacing */
+        .stColumn {
+            padding: 0 0.5rem;
         }
         
         /* Button styling */
@@ -336,6 +347,7 @@ def show_landing_page():
         </h2>
     """, unsafe_allow_html=True)
     
+    # First row of features
     col1, col2, col3 = st.columns(3)
     
     with col1:
@@ -346,7 +358,8 @@ def show_landing_page():
                 <p>Flip images horizontally or vertically, or rotate them to any angle you want!</p>
             </div>
         """, unsafe_allow_html=True)
-        
+    
+    with col2:
         st.markdown("""
             <div class="feature-card">
                 <div class="feature-icon">✂️</div>
@@ -355,7 +368,7 @@ def show_landing_page():
             </div>
         """, unsafe_allow_html=True)
     
-    with col2:
+    with col3:
         st.markdown("""
             <div class="feature-card">
                 <div class="feature-icon">🎨</div>
@@ -363,7 +376,11 @@ def show_landing_page():
                 <p>Transform your photos with classic black & white filters!</p>
             </div>
         """, unsafe_allow_html=True)
-        
+    
+    # Second row of features
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
         st.markdown("""
             <div class="feature-card">
                 <div class="feature-icon">🌫️</div>
@@ -372,7 +389,7 @@ def show_landing_page():
             </div>
         """, unsafe_allow_html=True)
     
-    with col3:
+    with col2:
         st.markdown("""
             <div class="feature-card">
                 <div class="feature-icon">✨</div>
@@ -380,7 +397,8 @@ def show_landing_page():
                 <p>Enhance details and make your images crystal clear!</p>
             </div>
         """, unsafe_allow_html=True)
-        
+    
+    with col3:
         st.markdown("""
             <div class="feature-card">
                 <div class="feature-icon">💾</div>
