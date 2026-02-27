@@ -1,0 +1,61 @@
+{
+  "title": "DinoStudio",
+  "description": "DinoStudio is a friendly AI-powered image editing companion that makes photo manipulation simple and intuitive. Transform, enhance, and perfect your photos with powerful OpenCV-based tools through a beautiful, user-friendly interface. Features include flip, rotate, crop, filters, blur, sharpen, and instant downloads—all with a delightful dino assistant theme.",
+  "techStack": [
+    "Python",
+    "Streamlit",
+    "OpenCV",
+    "NumPy",
+    "Pillow",
+    "CSS",
+    "HTML",
+    "Git"
+  ],
+  "date": "2026",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/ramanakurva164/OpenStudio"
+    },
+    {
+      "name": "Live Demo",
+      "url": "https://dinostudio.streamlit.app"
+    }
+  ],
+  "images": [
+    {
+      "src": "/dinostudio-landing.png",
+      "alt": "DinoStudio landing page with dino mascot"
+    },
+    {
+      "src": "/dinostudio-editor.png",
+      "alt": "DinoStudio editor interface"
+    },
+    {
+      "src": "/dinostudio-flip.png",
+      "alt": "DinoStudio flip feature"
+    },
+    {
+      "src": "/dinostudio-rotate.png",
+      "alt": "DinoStudio rotate feature"
+    },
+    {
+      "src": "/dinostudio-crop.png",
+      "alt": "DinoStudio crop feature"
+    },
+    {
+      "src": "/dinostudio-filters.png",
+      "alt": "DinoStudio filters and effects"
+    }
+  ],
+  "features": [
+    "Flip & Rotate - Transform images horizontally, vertically, or any angle",
+    "Precision Crop - Cut out perfect sections with pixel-perfect controls",
+    "B&W Filters - Classic monochrome conversions",
+    "Blur Effects - Smooth artistic blur for creative enhancement",
+    "Sharpen Tool - Enhance details and clarity",
+    "High-Quality Downloads - Save edited images in PNG format",
+    "Local Processing - All edits happen in-browser, privacy-first",
+    "Responsive Design - Beautiful UI with dino assistant theme"
+  ]
+}
